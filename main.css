@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+}
+
+body, html {
+    height: 100%;
+    min-height: 100%;
+    overflow: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #3c6382;
+
+}
+
+#container {
+    background-color: #f1f2f6;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 12px 28px 0 inset, rgba(0, 0, 0, 0.1) 0 2px 4px 0 inset, rgba(255, 255, 255, 0.05) 0 0 0 1px inset;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 3rem);
+    height: calc(100% - 3rem);
+    border-radius: 8px;
+}
+
+#container-content {
+    text-align: center;
+    color: #404040;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+}
+
+#container-content h1 {
+    margin: 25px 0 5px 0;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+#container-content h2 {
+    margin: 10px 0 0 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+#quiz-content {
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 0.5fr;
+    height: 75%;
+    position: relative;
+    width: 65%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 10rem;
+    margin: 1rem;
+}
+
+#quiz-content .row {
+    margin: 1rem;
+    padding: 10px 15px;
+    color: #404040;
+}
+
+.selected {
+    transform: scale(1.07);
+}
+
+#quiz-content .answer {
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    border: 5px #486987 solid;
+    background-color: #7493aa;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+#quiz-content .submit {
+    margin: 1rem 0;
+}
+
+#quiz-content .question {
+    text-align: left;
+    padding: 0 5px;
+    border-radius: 5px;
+}
+
+#quiz-content .submit button {
+    transition: 0.2s ease-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+    outline: none;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#quiz-content .submit button#proceed {
+    float: right;
+    background: grey;
+}
+
+#quiz-content .submit button#back {
+    float: left;
+    /*background: #ee5253;*/
+    background: grey;
+}
+
+#quiz-content .submit button#back svg {
+    margin: 0 1rem 0 0;
+}
+
+#quiz-content .submit button#proceed svg {
+    margin: 0 0 0 1rem;
+}
