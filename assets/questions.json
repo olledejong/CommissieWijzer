@@ -1,0 +1,63 @@
+{
+  "1": {
+    "question": "Ik wil iedere week met mijn commissie vergaderen",
+    "agree": ["FEC", "TOCO", "REDACIE", "ALCO", "EJACULATIE"]
+  },
+  "2": {
+    "question": "Ik heb niet veel tijd, maar wil wel graag een commissie doen",
+    "agree": ["VETVIT", "PROMOCIE", "ESCO", "SPOCO", "STUCO", "IC", "FC"]
+  },
+  "3": {
+    "question": "Ik wil mijn creativiteit in de commissie kwijt kunnen",
+    "agree": ["REDACIE", "ALCO", "PROMOCIE"]
+  },
+  "4": {
+    "question": "Ik vind het belangrijk dat er binnen mijn commissie veel gezopen wordt",
+    "agree": ["FEC", "TOCO", "ESCO", "EJACULATIE"]
+  },
+  "5": {
+    "question": "Ik wil dat de taken van mijn commissie met voetbal te maken hebben",
+    "agree": ["TOCO", "VETVIT", "FC"]
+  },
+  "6": {
+    "question": "Ik hou van organiseren",
+    "agree": ["FEC", "TOCO", "VETVIT", "EJACULATIE", "STUCO"]
+  },
+  "7": {
+    "question": "Ik vind het leuk om nieuwelingen wegwijs te maken binnen de vereniging",
+    "agree": ["EJACULATIE"]
+  },
+  "8": {
+    "question": "Ik vind reizen en wintersport leuk",
+    "agree": ["STUCO"]
+  },
+  "9": {
+    "question": "Ik vind het leuk om te schrijven",
+    "agree": ["REDACIE", "ALCO"]
+  },
+  "10": {
+    "question": "Ik vind het belangrijk dat een commissie van toegevoegde waarde is op mijn CV",
+    "agree": ["REDACIE", "ALCO", "PROMOCIE", "SPOCO", "IC"]
+  },
+  "11": {
+    "question": "Ik vind het niet erg om met een commissie de ene periode drukker te zijn dan de andere periode",
+    "agree": ["VETVIT", "ALCO", "ESCO", "EJACULATIE", "STUCO"]
+  },
+  "12": {
+    "question": "Ik vind het leuk om met bedrijven te netwerken",
+    "agree": ["ALCO", "SPOCO"]
+  },
+  "13": {
+    "question": "Ik vind het leuk om bezig te zijn met online media (social media, de website, etc.)",
+    "agree": ["REDACIE", "PROMOCIE", "IC"]
+  },
+  "14": {
+    "question": "Ik vind het niet erg om af en toe een wedstrijd te fluiten",
+    "agree": ["VETVIT", "FC"]
+  },
+  "15": {
+    "question": "Tijdens evenementen vind ik het niet erg om verantwoordelijkheden te hebben",
+    "agree": ["STUCO", "EJACULATIE", "VETVIT", "FEC"]
+  }
+
+}
