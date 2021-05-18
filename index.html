@@ -1,7 +1,9 @@
+<!-- By Olle de Jong -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/js/all.min.js"></script>
@@ -11,33 +13,19 @@
     <title>De CommissieWijzer</title>
 </head>
 <body>
-<div id="container">
-    <div id="container-content">
+    <div id="container">
+        <img alt="vijfje-logo" src="assets/logo.png">
         <h1>De enige echte Vijfje CommissieWijzer</h1>
         <h2>Welke commissie past er bij jou?</h2>
-    </div>
-    <div id="quiz-content">
-        <div class="row question">
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?</h2>
-        </div>
-        <div id="ans1" class="row answer">
-            <div></div>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </div>
-        <div id="ans2" class="row answer">
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
-        </div>
-        <div id="ans3" class="row answer">
-            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
-        </div>
-        <div id="ans4" class="row answer">
-            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
-        </div>
-        <div class="row submit">
-            <button id="back" disabled><i class="fas fa-arrow-left"></i>Vorige</button>
-            <button id="proceed" disabled>Volgende<i class="fas fa-arrow-right"></i></button>
+        <div id="quiz-content">
+            <div class="question">
+                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?</h2>
+            </div>
+            <button id="agree" class="submit">Eens</button>
+            <button id="undecided" class="submit">Geen mening</button>
+            <button id="disagree" class="submit">Oneens</button>
         </div>
     </div>
-</div>
 </body>
+<footer>Mede mogelijk gemaakt door de Redactie- en Internet Commissie</footer>
 </html>
