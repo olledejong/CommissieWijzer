@@ -15,7 +15,7 @@ body, html {
 }
 
 #container img {
-    width: 7rem;
+    width: 7vw;
     position: absolute;
     left: 0;
 }
@@ -26,44 +26,110 @@ body, html {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: calc(100% - 6rem);
-    height: calc(100% - 5rem);
+    width: calc(100% - 7vw);
+    height: calc(100% - 6vh);
 }
 
-#container h1 {
-    margin: 1.4rem 0 0.5rem 0;
+#nav-wrapper {
+    margin: 1.4vh 0 0 0;
+}
+
+#title-wrapper {
+    position: relative;
+    width: 70vw;
+    margin: 3vh 0 0 0;
+    display: inline-block;
+}
+
+#title-wrapper h1 {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 3vh;
 }
 
-#container h2 {
+#title-wrapper h2 {
     margin: 0.8rem 0 0 0;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 2.5vh;
+}
+
+#intro-wrapper {
+    width: 50vw;
+    display: inline-block;
+    margin: 12vh 0 0 0;
+}
+
+#result-wrapper {
+    animation-name: fadeIn;
+    animation-duration: 2.5s;
+    display: none;
+    margin: 9vh 0 0 0;
+}
+
+#result-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2vh;
+    grid-auto-flow: dense;
+    grid-column-gap: 4vw;
+    font-size: 1.6vh;
+}
+
+#result-grid .result {
+
+}
+
+.result .commission {
+    display: block;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-align: left;
+}
+
+.commission .commission-name {
+    float: left;
+}
+
+.commission .commission-score {
+    float: right;
+}
+
+.result .percentage-bar {
+    height: 2vh;
+    width: 22vw;
+    border-radius: 20rem;
+    display: inline-block;
+    margin: 1.5vh 0;
+    background-color: #86b6e3;
+    box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+}
+
+.result .fill {
+    background-color: #86b6e3;
+    border-radius: 20rem;
+    height: 100%;
+}
+
+.result .unfilled {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    border-radius: 20rem;
 }
 
 #introduction {
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%);
     text-align: left;
-    font-size: 1.2rem;
-    width: 50vw;
-    margin: 7rem 0;
+    font-size: 1.9vh;
 }
 
 #quiz-content {
     animation-name: fadeIn;
-    animation-duration: 2s;
+    animation-duration: 2.5s;
     display: none;
-    grid-template-rows: 0.5fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    position: absolute;
-    width: 55vw;
-    left: 50%;
-    transform: translate(-50%, -45%);
-    margin: 20rem 0;
-    grid-gap: 6rem 5rem;
+    position: relative;
+    width: 52vw;
+    margin: 20vh 0;
 }
 
 #quiz-content .question {
@@ -74,30 +140,33 @@ body, html {
     text-align: center;
 }
 
-.question h2 {
-
+#quiz-content h2 {
+    font-weight: 400;
+    margin: 0 0 3vh;
 }
 
 #quiz-content button {
     transition: 0.2s ease-out;
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
     outline: none;
-    padding: 20px 30px;
     border: none;
     color: #ecf0f1;
     background-color: grey;
     border-radius: 5px;
     text-transform: uppercase;
-    letter-spacing: .2rem;
+    letter-spacing: 3px;
     font-weight: 800;
     cursor: pointer;
+    padding: 3vh;
+    width: 13vw;
+    margin: 3.5vw 1.7vw;
 }
 
 button#start {
     transition: 0.2s ease-out;
     box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
     outline: none;
-    padding: 30px 60px;
+    padding: 3vh 6vh;
     border: none;
     color: #ecf0f1;
     background: #27ae60;
@@ -106,26 +175,46 @@ button#start {
     letter-spacing: .2rem;
     font-weight: 800;
     cursor: pointer;
+    display: inline-block;
+    margin: 9vh 0 0 0;
 }
 
-#quiz-content button:hover {
+button:hover {
     opacity: 0.7;
 }
 
-button#agree {
+button#a {
     background: #27ae60;
 }
 
-button#disagree {
+button#d {
     background: #ee5253;
+}
+
+#more-info {
+    margin: 6vh 0 0 0;
+    color: inherit;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-size: 1.6vh;
 }
 
 footer {
     position: fixed;
     bottom: 0;
     right: 0;
-    margin: 1rem;
-    font-size: 0.8rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+footer #by {
+    float: right;
+    font-size: 0.85rem;
+}
+
+footer #by svg {
+    color: #d63031;
 }
 
 /* Keyframes */

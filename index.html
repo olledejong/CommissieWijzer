@@ -15,28 +15,43 @@
 </head>
 <body>
     <div id="container">
-        <img alt="vijfje-logo" src="assets/logo.png">
-        <h1>De enige echte Drs. Vijfje CommissieWijzer</h1>
-        <h2>Welke commissie past er bij jou?</h2>
-        <p id="introduction">
-            Welkom aankomend actief lid!
-            <br><br>
-            Allereerst: leuk dat jij je wil inzetten voor de vereniging door middel van commissiewerk!
-            <br><br>
-            Je gaat ongetwijfeld een fantastische tijd beleven. Misschien ben je al langer lid bij Vijfje of misschien ben je nieuweling. Wat het ook is: als je alles uit je tijd bij Drs. Vijfje wil halen, is lid worden bij een commissie de juiste beslissing.
-            <br><br>
-            Maak vrienden voor het leven, ontplooi jezelf en creëer onvergetelijke herinneringen. De enorme diversiteit aan commissies maakt je keuze er echter niet makkelijk op. Drs. Vijfje heeft immers voor ieder wat wils! Om je een handje te helpen bij je keuze is hier de Drs. Vijfje CommissieWijzer.
-        </p>
-        <button id="start">START</button>
-        <div id="quiz-content">
-            <div class="question">
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?</h2>
+        <div id="nav-wrapper">
+            <a href="./">
+                <img alt="vijfje-logo" src="assets/logo.png">
+            </a>
+            <div id="title-wrapper">
+                <h1>De enige echte Drs. Vijfje CommissieWijzer</h1>
+                <h2>Welke commissie past er bij jou?</h2>
             </div>
-            <button id="agree" class="submit">Eens</button>
-            <button id="undecided" class="submit">Neutraal</button>
-            <button id="disagree" class="submit">Oneens</button>
+        </div>
+        <div id="intro-wrapper">
+            <p id="introduction">
+                Welkom aankomend actief lid!
+                <br><br>
+                Allereerst: leuk dat jij je wil inzetten voor de vereniging door middel van commissiewerk!
+                <br><br>
+                Je gaat ongetwijfeld een fantastische tijd beleven. Misschien ben je al langer lid bij Vijfje of misschien ben je nieuweling. Wat het ook is: als je alles uit je tijd bij Drs. Vijfje wil halen, is lid worden bij een commissie de juiste beslissing.
+                <br><br>
+                Maak vrienden voor het leven, ontplooi jezelf en creëer onvergetelijke herinneringen. De enorme diversiteit aan commissies maakt je keuze er echter niet makkelijk op. Drs. Vijfje heeft immers voor ieder wat wils! Om je een handje te helpen bij je keuze is hier de Drs. Vijfje CommissieWijzer.
+            </p>
+            <button id="start">START</button>
+        </div>
+        <div id="quiz-content">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?</h2>
+            <button id="a" class="submit">Eens</button>
+            <button id="u" class="submit">Neutraal</button>
+            <button id="d" class="submit">Oneens</button>
+        </div>
+        <div id="result-wrapper">
+            <div id="result-grid">
+            </div>
+            <a target="_blank" href="https://drs.vijfje.nl/drs-vijfje/commissies/commissie-inhoud" id="more-info">
+                Klik hier voor meer informatie over de commissies.
+            </a>
         </div>
     </div>
 </body>
-<footer>Mede mogelijk gemaakt door de Redactie- en Internet Commissie</footer>
+<footer>
+    <span id="by">Met &nbsp;<i class="fas fa-heart"></i>&nbsp; gemaakt door de Redactie- en Internet Commissie</span>
+</footer>
 </html>
