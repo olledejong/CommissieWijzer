@@ -79,7 +79,7 @@ $(() => {
             $("#result-grid").append(
                 `<div id="${commission}" class="result">
                     <span class="commission">
-                        <span class="commission-name">${commission}</span>
+                        <span class="commission-name">${i+1}. ${commission}</span>
                         <span class="commission-score">${roundedPercentageScore}%</span>
                     </span>
                     <div class="percentage-bar">
