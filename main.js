@@ -9,7 +9,7 @@ $(() => {
 
     $("#start").on("click", () => {
         // hide and un-hide stuff
-        $("#quiz-content").css("display", "inline-block")
+        $("#quiz-content").css("display", "grid")
         $("#intro-wrapper").fadeOut("fast")
 
         performQuiz();
@@ -42,7 +42,8 @@ $(() => {
                 fillResultGrid()
 
                 // show results
-                $("#result-wrapper").css("display", "inline-grid")
+                $("#result-wrapper").css("display", "grid")
+                $("#go-to-vijfje").css("display", "block")
             }
         })
     }
