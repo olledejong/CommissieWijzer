@@ -34,7 +34,12 @@ body, html {
 #nav-wrapper {
 }
 
-#title-wrapper {display: grid;height: fit-content;grid-column: 2/3;justify-items: center;}
+#title-wrapper {
+    display: grid;
+    height: fit-content;
+    grid-column: 2/3;
+    justify-items: center;
+}
 
 #title-wrapper h1 {
     font-weight: 600;
