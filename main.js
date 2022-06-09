@@ -2,9 +2,11 @@ $(() => {
 
     let data;
     let score = {};
+    let totalQuestions;
 
     $.getJSON("assets/questions.json", function(json) {
         data = json;
+        totalQuestions = Object.keys(data).length;
     });
 
     $("#start").on("click", () => {
@@ -31,7 +33,7 @@ $(() => {
 
             // Add one to the iterator and show next question
             questionNum += 1;
-            if (questionNum < 16) {
+            if (questionNum < (totalQuestions + 1)) {
                 $("#quiz-content h2").text(data[questionNum]["q"])
             } else {
                 // end of quiz; show results and reset score and iterator
@@ -74,7 +76,7 @@ $(() => {
         for (let i = 0; i < sortedScores.length; i++) {
             let commission = sortedScores[i][0];
             let commissionScore = sortedScores[i][1];
-            let percentageScore = (commissionScore / data["totalPossiblePoints"] * 100);
+            let percentageScore = (commissionScore / totalQuestions * 100);
             let roundedPercentageScore = Math.round(percentageScore);
 
             $("#result-grid").append(
