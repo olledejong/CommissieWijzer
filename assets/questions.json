@@ -2,77 +2,121 @@
   "1": {
     "q": "Ik wil iedere week met mijn commissie vergaderen.",
     "a": ["FEC", "TOCO", "REDACIE", "ALCO", "EJACULACIE"],
-    "d": ["VETVIT", "PROMOCIE", "ESCO", "SPOCO", "STUCO", "IC", "FC"]
+    "d": ["VETVIT", "PROMOCIE", "ESCO", "SPOCO", "STUCO", "IC", "FC", "NICO"]
   },
   "2": {
     "q": "Ik heb niet veel tijd, maar wil wel graag een commissie doen.",
-    "a": ["VETVIT", "PROMOCIE", "ESCO", "SPOCO", "STUCO", "IC", "FC"],
+    "a": ["VETVIT", "PROMOCIE", "ESCO", "SPOCO", "STUCO", "IC", "FC", "NICO"],
     "d": ["FEC", "TOCO", "REDACIE", "ALCO", "EJACULACIE"]
   },
   "3": {
     "q": "Ik wil mijn creativiteit in de commissie kwijt kunnen.",
     "a": ["REDACIE", "ALCO", "PROMOCIE", "IC"],
-    "d": ["FEC", "TOCO", "VETVIT", "ESCO", "SPOCO", "EJACULACIE", "STUCO", "FC"]
+    "d": ["FEC", "TOCO", "VETVIT", "ESCO", "SPOCO", "EJACULACIE", "STUCO", "FC", "NICO"]
   },
   "4": {
     "q": "Ik vind het belangrijk dat er binnen mijn commissie veel gezopen wordt.",
     "a": ["FEC", "TOCO", "ESCO", "EJACULACIE"],
-    "d": ["REDACIE", "VETVIT", "ALCO", "PROMOCIE", "SPOCO", "STUCO", "IC", "FC"]
+    "d": ["REDACIE", "VETVIT", "ALCO", "PROMOCIE", "SPOCO", "STUCO", "IC", "FC", "NICO"]
   },
   "5": {
     "q": "Ik wil dat de taken van mijn commissie met voetbal te maken hebben.",
     "a": ["TOCO", "VETVIT", "FC"],
-    "d": ["FEC", "REDACIE", "ALCO", "PROMOCIE", "ESCO", "SPOCO", "EJACULACIE", "STUCO", "IC"]
+    "d": ["FEC", "REDACIE", "ALCO", "PROMOCIE", "ESCO", "SPOCO", "EJACULACIE", "STUCO", "IC", "NICO"]
   },
   "6": {
     "q": "Ik hou van organiseren.",
-    "a": ["FEC", "TOCO", "VETVIT", "EJACULACIE", "STUCO"],
+    "a": ["FEC", "TOCO", "VETVIT", "EJACULACIE", "STUCO", "NICO"],
     "d": ["REDACIE", "ALCO", "PROMOCIE", "ESCO", "SPOCO", "IC", "FC"]
   },
   "7": {
     "q": "Het lijkt mij leuk om nieuwelingen wegwijs te maken binnen de vereniging.",
-    "a": ["EJACULACIE"],
+    "a": ["EJACULACIE", "NICO"],
     "d": ["FEC", "TOCO", "REDACIE", "VETVIT", "ALCO", "PROMOCIE", "ESCO", "SPOCO", "STUCO", "IC", "FC"]
   },
   "8": {
     "q": "Ik vind reizen en wintersport leuk.",
     "a": ["STUCO"],
-    "d": ["FEC", "TOCO", "REDACIE", "VETVIT", "ALCO", "PROMOCIE", "ESCO", "SPOCO", "EJACULACIE", "IC", "FC"]
+    "d": ["FEC", "TOCO", "REDACIE", "VETVIT", "ALCO", "PROMOCIE", "ESCO", "SPOCO", "EJACULACIE", "IC", "FC", "NICO"]
   },
   "9": {
     "q": "Ik vind het leuk om te schrijven.",
     "a": ["REDACIE", "ALCO"],
-    "d": ["FEC", "TOCO", "VETVIT", "PROMOCIE", "ESCO", "SPOCO", "EJACULACIE", "IC", "FC", "STUCO"]
+    "d": ["FEC", "TOCO", "VETVIT", "PROMOCIE", "ESCO", "SPOCO", "EJACULACIE", "IC", "FC", "STUCO", "NICO"]
   },
   "10": {
     "q": "Ik vind het belangrijk dat een commissie van toegevoegde waarde is op mijn CV.",
     "a": ["REDACIE", "ALCO", "PROMOCIE", "SPOCO", "IC"],
-    "d": ["FEC", "TOCO", "VETVIT", "ESCO", "EJACULACIE", "STUCO", "FC"]
+    "d": ["FEC", "TOCO", "VETVIT", "ESCO", "EJACULACIE", "STUCO", "FC", "NICO"]
   },
   "11": {
     "q": "Ik vind het niet erg om met een commissie de ene periode drukker te zijn dan de andere periode.",
     "a": ["VETVIT", "ALCO", "ESCO", "EJACULACIE", "STUCO"],
-    "d": ["FEC", "TOCO", "REDACIE", "PROMOCIE", "SPOCO", "IC", "FC"]
+    "d": ["FEC", "TOCO", "REDACIE", "PROMOCIE", "SPOCO", "IC", "FC", "NICO"]
   },
   "12": {
-    "q": "Ik vind het leuk om met bedrijven te netwerken.",
+    "q": "Ik vind het interessant om contact te hebben met externe partijen.",
     "a": ["ALCO", "SPOCO"],
-    "d": ["FEC", "TOCO", "VETVIT", "REDACIE", "PROMOCIE", "ESCO", "EJACULACIE", "IC", "FC", "STUCO"]
+    "d": ["FEC", "TOCO", "VETVIT", "REDACIE", "PROMOCIE", "ESCO", "EJACULACIE", "IC", "FC", "STUCO", "NICO"]
   },
   "13": {
     "q": "Ik vind het leuk om bezig te zijn met online media (social media, de website, etc.).",
     "a": ["REDACIE", "PROMOCIE", "IC"],
-    "d": ["FEC", "TOCO", "ESCO", "FC", "ALCO", "SPOCO", "EJACULACIE", "VETVIT", "STUCO"]
+    "d": ["FEC", "TOCO", "ESCO", "FC", "ALCO", "SPOCO", "EJACULACIE", "VETVIT", "STUCO", "NICO"]
   },
   "14": {
     "q": "Ik vind het niet erg om af en toe een wedstrijd te fluiten.",
     "a": ["VETVIT", "FC"],
-    "d": ["FEC", "TOCO", "ALCO", "SPOCO", "REDACIE", "PROMOCIE", "ESCO", "EJACULACIE", "IC", "STUCO"]
+    "d": ["FEC", "TOCO", "ALCO", "SPOCO", "REDACIE", "PROMOCIE", "ESCO", "EJACULACIE", "IC", "STUCO", "NICO"]
   },
   "15": {
     "q": "Tijdens evenementen vind ik het niet erg om verantwoordelijkheden te hebben.",
     "a": ["STUCO", "EJACULACIE", "VETVIT", "FEC"],
-    "d": ["TOCO", "ALCO", "SPOCO", "REDACIE", "PROMOCIE", "ESCO", "IC", "FC"]
+    "d": ["TOCO", "ALCO", "SPOCO", "REDACIE", "PROMOCIE", "ESCO", "IC", "FC", "NICO"]
   },
-  "totalPossiblePoints": 15
+  "16": {
+    "q": "Ik vind editen en photoshoppen leuk.",
+    "a": ["PROMOCIE", "ALCO", "IC"],
+    "d": ["TOCO", "STUCO", "VETVIT", "SPOCO", "REDACIE", "EJACULACIE", "ESCO", "FEC", "FC", "NICO"]
+  },
+  "17": {
+    "q": "Ik vind het leuk om iets tastbaars te creëren waar ik later op terug kan kijken.",
+    "a": ["REDACIE", "ALCO"],
+    "d": ["FEC", "TOCO", "VETVIT", "PROMOCIE", "ESCO", "SPOCO", "EJACULACIE", "IC", "FC", "STUCO", "NICO"]
+  },
+  "18": {
+    "q": "Het lijkt me leuk om me bezig te houden met het ontwerpen van nieuwe merchandise voor de vereniging (hoodies, mokken etc.)",
+    "a": ["PROMOCIE"],
+    "d": ["TOCO", "STUCO", "VETVIT", "SPOCO", "REDACIE", "EJACULACIE", "ESCO", "FEC", "FC", "ALCO", "IC", "NICO"]
+  },
+  "19": {
+    "q": "Het lijkt me leuk om serieuze evenementen af te wisselen met minder serieuze evenementen.",
+    "a": ["TOCO", "FEC", "NICO"],
+    "d": ["VETVIT", "REDACIE", "ALCO", "PROMOCIE", "ESCO", "SPOCO", "EJACULACIE", "STUCO", "IC", "FC"]
+  },
+  "20": {
+    "q": "Ik wil graag in contact staan met andere (zaalvoetbal)verenigingen.",
+    "a": ["TOCO", "FEC", "VETVIT"],
+    "d": ["NICO", "REDACIE", "ALCO", "PROMOCIE", "ESCO", "SPOCO", "EJACULACIE", "STUCO", "IC", "FC"]
+  },
+  "21": {
+    "q": "Ik weet nog niet zo goed wat bij me past en wil graag met een groepje mede-nieuwelingen samen in een commissie.",
+    "a": ["NICO"],
+    "d": ["VETVIT", "REDACIE", "ALCO", "PROMOCIE", "ESCO", "SPOCO", "EJACULACIE", "STUCO", "IC", "FC", "TOCO", "FEC"]
+  },
+  "22": {
+    "q": "Ik wil graag de vrijheid krijgen om nieuwe evenemten te organiseren.",
+    "a": ["NICO", "TOCO"],
+    "d": ["VETVIT", "REDACIE", "ALCO", "PROMOCIE", "ESCO", "SPOCO", "EJACULACIE", "STUCO", "IC", "FC", "FEC"]
+  },
+  "23": {
+    "q": "Het lijkt me leuk om veel voor nieuwelingen te organiseren.",
+    "a": ["NICO", "EJACULACIE"],
+    "d": ["VETVIT", "REDACIE", "ALCO", "PROMOCIE", "ESCO", "SPOCO", "STUCO", "IC", "FC", "FEC"]
+  },
+  "24": {
+    "q": "Ik houd me graag bezig met drank/kroeg gerelateerde evenementen.",
+    "a": ["ESCO"],
+    "d": ["VETVIT", "REDACIE", "ALCO", "PROMOCIE", "NICO", "SPOCO", "EJACULACIE", "STUCO", "IC", "FC", "TOCO", "FEC"]
+  }
 }
